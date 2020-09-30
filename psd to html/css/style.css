@@ -1,0 +1,385 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	
+}
+html{
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Titillium Web', sans-serif;
+	text-rendering: optimizeLegibility;
+
+}
+ul li{
+	list-style: none;
+}
+h1{
+	color: #fff;
+	font-size: 2.8rem;
+	
+}
+h2{
+	color: #fff;
+	font-size: 4rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: .2rem;
+	margin-top: 0;
+	margin-bottom: 3rem;
+	text-align: center;
+}
+.Servies_section h2::after{
+	content: "";
+	display: block;
+	height: .3rem;
+	width: 8.6rem;
+	margin: auto;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	background-color: #fff; 
+}
+.Team_section h2::after{
+	content: "";
+	display: block;
+	height: .3rem;
+	width: 8.6rem;
+	margin: auto;
+	margin-top: 1.5rem;
+	margin-bottom: 3rem;
+	background-color: #00ff90cc; 
+}
+h3{
+	margin: auto;
+	font-weight: 400;
+	font-size: 2.4rem;
+	text-transform: uppercase;
+}
+.box{
+
+}
+.box p{
+	font-weight: 300;
+	font-size: 1.6rem;
+	margin-top: 3rem;
+
+}
+.little_discripsion{
+	width: 60%;
+	font-size: 1.8rem;
+	margin-left: 20%;
+	line-height: 3rem;
+	text-align: center;
+}
+.row{
+	max-width: 114rem;
+	margin: 0 auto;
+}
+
+header{
+	background:-o-linear-gradient(rgb(16, 35, 64,0.6),rgba(17, 23, 70, 0.8)), url(../img/pexels-4049990.jpg);
+	background:-webkit-gradient(linear,left top, left bottom,from(rgb(16, 35, 64,0.6)),to(rgba(17, 23, 70, 0.8))), url(../img/pexels-4049990.jpg);
+	background:linear-gradient(rgb(16, 35, 64,0.6),rgba(17, 23, 70, 0.8)), url(../img/pexels-4049990.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 85vh;
+	position: relative;
+}
+/*header::after {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-color: red;
+    position: absolute;
+    top: 96.5%;
+    left: 50%;
+    transform: rotate(44deg);
+    transition: .9s;
+ }
+ header:hover::after{
+ 	background-color: #2a2f8e;
+ 	transform: rotate(133deg);
+ 	}*/
+ 	.logo{
+ 		height: 3.5rem;
+ 		width: auto;
+ 		float: left;
+ 		margin-top: 3rem;
+ 	}
+
+ 	.main-nav{
+ 		margin-top: 3.5rem;
+ 		float: right;
+ 	}
+ 	.main-nav li{
+ 		display: inline-block;
+ 		margin-left: 1rem;
+ 	}
+ 	.main-nav li:first-child{
+ 		margin-left: 0rem;
+ 	}
+ 	.main-nav  li a:link,.main-nav  li a:visited{
+ 		color: #fff;
+ 		text-transform: uppercase;
+ 		font-size: 16px;
+ 		text-decoration: none;
+ 		padding: .3rem 1.6rem;
+ 		border-radius: .3rem;
+ 		-webkit-transition: .5s;
+ 		-o-transition: .5s;
+ 		transition: .5s;
+ 	}
+ 	.main-nav  li a:hover, .active{
+ 		background-color: rgba(0,119,181 ,10);
+
+ 	}
+ 	.sticky{
+ 		position: fixed;
+
+ 	}
+
+ 	.hero_text_box{
+ 		position: absolute;
+ 		top: 50%;
+ 		left: 50%;
+ 		-webkit-transform: translate(-50% ,-50%);
+ 		    -ms-transform: translate(-50% ,-50%);
+ 		        transform: translate(-50% ,-50%);
+ 		text-align: center;
+ 	}
+ 	.btn:link , .btn:visited, .btn{
+ 		background-color: #333;
+ 		text-transform: uppercase;
+ 		padding: .8rem 4rem;
+ 		border-bottom: .3rem solid #000;
+ 		text-decoration: none;
+ 		color: #fff;
+ 		display: inline-block;
+ 		margin-top: 3.5rem;
+ 		font-size: 1.4rem;
+
+ 	}
+ 	.btn-hero:link, .btn-hero:visited{
+ 		background-color: #FF6A37;
+ 		border-bottom: .3rem solid #D4563C;
+ 		border-radius: .3rem;
+ 	}
+ 	section{
+ 		padding: 8rem 0;
+ 	}
+ 	.classicly::after{
+ 		content: '';
+ 		display: table;
+ 		clear: both;
+ 		height: 0;
+ 		visibility: hidden;
+ 	}
+
+ 	.Servies_section{
+ 		color: #fff;
+ 		text-align: center;
+ 		background:#008c70;
+
+ 	}
+ 	h2::after{
+ 		background-color:#796363;
+ 	}
+ 	.servise-icon{
+ 		height: 12rem;
+ 		margin-top: 4.5rem;
+ 		margin-bottom: 3.5rem; 
+ 	}
+
+
+
+ 	.Team_section{
+ 		background:-o-linear-gradient(#003331a1,#08080800) , url(../img/person-standing-on-wrecked-plane-919606.jpg);
+ 		background:-webkit-gradient(linear,left top, left bottom,from(#003331a1),to(#08080800)) , url(../img/person-standing-on-wrecked-plane-919606.jpg);
+ 		background:linear-gradient(#003331a1,#08080800) , url(../img/person-standing-on-wrecked-plane-919606.jpg);
+ 		background-position: center;
+ 		background-repeat: no-repeat;
+ 		background-attachment: fixed;
+ 		background-size: cover;
+ 		text-align: center;
+ 		color:#fff;
+
+ 	}
+ 	.Team_section img{
+ 		width: 15rem;
+ 		height: 15rem;
+ 		margin-top: 4.5rem;
+ 		border-radius: 50%;
+ 	}
+ 	.Team_section h2{
+ 		color: #fff;
+ 		font-weight: 550;
+ 	}
+ 	.Team_section p{
+ 		margin-top: .6rem;
+ 		font-size: 1.5rem;
+ 	}
+ 	.rola{
+ 		color: #00ff90cc;
+ 		font-size: 1.6rem;
+ 	}
+ 	.icon-box{
+ 		margin-top: 2.5rem;
+ 	}
+ 	.icon-box ul li{
+ 		display: inline-block;
+ 		margin: 0 .5rem;
+ 		background-color: #477574;
+ 		padding: .5rem .5rem;
+ 		width: 2rem;
+ 		height: 2rem;
+ 		-webkit-transition: .6s;
+ 		-o-transition: .6s;
+ 		transition: .6s;
+ 		border-radius: 5px
+
+
+
+ 	}
+ 	.icon-box ul li a{
+ 		color: #fff;
+ 	}
+ 	.icon-box ul li:hover{
+ 		border-radius: 50%;
+ 		-webkit-transform:rotate(30deg) scale(1.3);
+ 		    -ms-transform:rotate(30deg) scale(1.3);
+ 		        transform:rotate(30deg) scale(1.3);
+ 		cursor: pointer;
+ 		background-color: #fff;
+
+ 	}
+ 	.icon-box ul li:hover a{
+ 		color: #477574;	
+ 	}
+ 	.skill-section{
+ 		text-align: center;
+ 		background:-o-linear-gradient(rgba(242, 242, 243,0.9),rgba(253, 253, 253, 0.9)), url(../img/person-using-macbook-pro-beside-coca-cola-cans-3819967.jpg);
+ 		background:-webkit-gradient(linear,left top, left bottom,from(rgba(242, 242, 243,0.9)),to(rgba(253, 253, 253, 0.9))), url(../img/person-using-macbook-pro-beside-coca-cola-cans-3819967.jpg);
+ 		background:linear-gradient(rgba(242, 242, 243,0.9),rgba(253, 253, 253, 0.9)), url(../img/person-using-macbook-pro-beside-coca-cola-cans-3819967.jpg);
+
+ 		background-repeat: no-repeat;
+ 		background-attachment: fixed;
+ 		background-size: cover;
+
+
+ 	}
+ 	.skill-section::after{
+ 		content: '';
+ 		display: block;
+ 		clear: both;
+
+
+ 	}
+ 	.skill-section h2,.skill-section h3{
+ 		color: #131313;
+ 	} 
+ 	.skill-section h2::after{
+ 		content: '';
+ 		display: block;
+ 		width: 8rem;
+ 		height: 4px;
+ 		margin: auto;
+ 		background-color: lightblue;
+ 	}
+ 	.skill-section .sbox {
+ 		margin-top: 4.5rem;
+
+ 	}
+
+ 	svg.radial-progress  text {
+ 		fill: green;
+ 	}
+
+ 	svg.web-design circle{
+ 		stroke: #30bae7;
+ 	}
+ 	svg.html-css circle{
+ 		stroke: #d74689;
+ 	}
+ 	svg.graphic-design circle{
+ 		stroke: #15c7a8;
+ 	}
+ 	svg.ui-ux circle{
+ 		stroke: #eb7d4d;
+ 	}
+ 	.mobile-manu span{
+ 		color: #fff;
+ 		font-size: 4rem;
+ 		float: right;
+ 		margin: 2rem;
+ 		cursor: pointer;
+ 		display: none;
+ 	}
+ 	.overlay{
+ 		width: 0;
+ 		height: 100%;
+ 		position: fixed;
+ 		top: 0;
+ 		left: 0;
+/*	background-color: rgba(0,0,0,0.9);
+*/	background-color: #000;
+z-index: 9999999;
+overflow-x:hidden;
+opacity: 1;
+-webkit-transform: .5s;
+    -ms-transform: .5s;
+        transform: .5s; 
+
+}
+.overly-content{
+	position: relative;
+	top: 10%;
+	width: 100%;
+	text-align: center;
+	margin-top: 5rem;
+	
+
+}
+.overly-content a{
+	text-decoration: none;
+	display: block;
+	font-size: 3rem;
+	letter-spacing: 3px;
+	color: #d0b3b3;
+	text-transform: uppercase;
+	padding: 1rem 0;
+}
+.overly-content a:hover{
+	color: #fff;
+}
+.closebtn{
+	color: #fff;
+	font-size: 4rem;
+	float: right;
+	text-decoration: none;
+	margin-right: 3rem
+}
+@media only screen and (max-width:1200px){
+	.logo{
+		margin-left: 2rem;
+	}
+	
+
+}
+@media only screen and (max-width:1024px){
+	.logo{
+		margin-left: 2rem;
+	}
+	.main-nav {
+		display: none;
+	}
+	.mobile-manu span{
+		display: block;
+	}
+
+}
